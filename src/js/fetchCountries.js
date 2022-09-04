@@ -11,8 +11,5 @@ export const fetchCountries = (name) => {
     .then((data) => {
       return resolve(data);   // повертаємо проміс з масивом країн
     })
-    .catch(error => {
-      return reject(error);   // повертаємо проміс з помилкою
-    });
   })
 }
